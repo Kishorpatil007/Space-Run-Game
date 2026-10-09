@@ -1,0 +1,71 @@
+=================================================================
+>>> [SPACE JET: PLANET RUN] STARTING AUTOMATED VERIFICATION TEST <<<
+=================================================================
+[PASS] SaveManager initializes Level 1 as unlocked
+[PASS] SaveManager starting coin balance is correct
+[PASS] GameManager singleton initialized
+[PASS] MissionManager singleton initialized
+[PASS] AchievementManager singleton initialized
+[PASS] AudioManager procedural engine initialized
+[PASS] PlayerController jet initialized
+[PASS] PlayerHealth system initialized
+[PASS] PlayerEnergy fuel system initialized
+[PASS] PlayerBoost system initialized
+[PASS] PlayerShield system initialized
+[PASS] PlanetController initialized
+[PASS] LevelGenerator corridor initialized
+[PASS] UIManager canvas hierarchy initialized
+[PASS] Mission 01 (FIRST FLIGHT -> Planet Nova) preset loaded
+[PASS] Mission 02 (ASTEROID RUN -> Planet Terra-X) preset loaded
+[PASS] Mission 03 (ENERGY CRISIS -> Planet Zenith) preset loaded
+[PASS] Mission 04 (COSMIC STORM -> Planet Aurora) preset loaded
+[PASS] Mission 05 (FINAL JOURNEY -> Planet Elysium) preset loaded
+[PASS] GameManager launches directly into Playing state upon clicking Play
+[PASS] Mission 1 target distance is 1500m
+[PASS] Collecting coin awards credits (+25)
+[PASS] Procedural coin mesh generated with 3D geometry
+[PASS] Coin mesh vertex normals are valid non-zero outward vectors (fixes black coin bug)
+[PASS] Coin material has radiant 24K gold albedo
+[PASS] Coin material has realistic PBR metallic & specular gloss
+[PASS] Coin material features minted relief texture (bezel ring, teeth notches, embossed star)
+[PASS] Energy Crystal refuels jet (+20)
+[PASS] Shield activates successfully
+[PASS] Shield deflects obstacle damage completely (HP remains full)
+[PASS] Direct asteroid collision consumes 1 of 3 collision lives (2 remaining)
+[PASS] Direct asteroid collision also reduces energy (-25 NRG)
+[PASS] Hull health reflects 2/3 collision integrity
+[PASS] Boost speed multiplier configured correctly
+[PASS] Reaching 1500m triggers CinematicArrival state
+[PASS] Mission 1 marked as Complete
+[PASS] Level 2 unlocked after completing Level 1
+[PASS] Achievement 'FIRST FLIGHT' unlocked
+[PASS] Engine upgrade successfully purchased in Garage
+[PASS] Level 5 ('Reach the New World' -> Planet Elysium) is unlocked
+[PASS] CharacterManager has 4 distinct pilot characters
+[PASS] Default pilot is Nova Vance (ID: 0)
+[PASS] Nova Vance speed perk applies (+15% flight speed)
+[PASS] Pilot 0 (Nova Vance) is unlocked for free
+[PASS] Pilot 1 (Kaelen Voss) unlocks with coins
+[PASS] Kaelen Voss equipped as active pilot
+[PASS] Kaelen Voss shield bonus perk active (+2.5s)
+[PASS] JetSkinManager has 5 distinct sci-fi paintwork skins
+[PASS] Default skin 0 is unlocked
+[PASS] Home UI flagship skin 4 (Solar Vanguard) is unlocked
+[PASS] Skin 1 successfully unlocked
+[PASS] Skin 1 test-equipped as active jet paintwork
+[PASS] Active jet paintwork restored to player selection (Skin 4)
+[PASS] JetSkinUI has 5 visual skin cards configured
+[PASS] UIManager mainMenuPanel initialized
+[PASS] UIManager characterSelectPanel initialized
+[PASS] UIManager garagePanel initialized
+[PASS] UIManager settingsPanel initialized
+[PASS] UIManager missionSelectPanel initialized
+[PASS] UIManager briefingPanel initialized
+[PASS] UIManager resultPanel initialized
+[PASS] CharacterSelectUI component attached and wired
+[PASS] HUDController attached to UI hierarchy
+[PASS] Energy warning banner is hidden during normal flight to prevent clutter
+[PASS] Asteroid avoided counter increments (+1)
+=================================================================
+>>> AUTOMATED VERIFICATION RESULTS: 65/65 TESTS PASSED! <<<
+=================================================================
